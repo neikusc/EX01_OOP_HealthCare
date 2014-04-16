@@ -1,0 +1,15 @@
+1. Attached is a data file, data.csv, containing 5 year survival outcomes for 100,000 people. Each line of the file contains age at baseline, sex ("M" for male or "F" for female), a frailty index derived from a questionnaire given at baseline, and a "death" column indicating whether the person had died 5 years after baseline (1 means the person was dead 5 years later; 0 means the person was alive).
+
+a. Use logistic regression to model 5 year mortality based on the provided variables.
+
+b. Create an ROC plot to evaluate the performance of your model from step 1. Calculate the area under the curve (AUC).
+
+c. Use bootstrapping to determine 95% confidence intervals for the coefficients of your logistic regression model from step 1.
+
+2. Attached are three additional data files: claims.csv, policies.csv, and categories. The claims and policies files represent historical data for a set of 100 policy holders during the last 3 years or so. Each claim in the claims category has an associated code. Each code is present in the categories file and has an associated category. Please do the following:
+
+a. For each member, determine age at policy start and age at policy end.
+
+b. For each member, determine average claims per year in each of the categories in categories, as well as overall.
+
+c. Write the results of a and b to a csv file.
